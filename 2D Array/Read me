@@ -1,0 +1,23 @@
+int array[2][2];
+While initializing an array it is necessary to mention the second (column) dimension, whereas the first dimension is optional.
+
+Correct
+int arr [2][3];
+int arr [ ][3];
+
+Incorrect
+int arr [2][ ];
+int arr [ ][ ];
+
+We can supply value to the array by ;
+arr [0][1] = 1;
+arr [1][1] = 2;
+
+There another way of visualizing Array , we can consider 2d array as an Array inside of Array.
+
+arr [2][2] ={{1,2},{3,2}}; 
+
+Each row is an 1d array in itself.
+
+arr[2][4] , first 2 memory locations are created then the first between 2 is divided into 4 memory locations and same goes for the second part . 20:32
+
